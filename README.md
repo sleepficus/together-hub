@@ -10,6 +10,27 @@ tools. An agent or a named host bridge reads the queue and carries out its
 part. A saved request means the request was saved; it doesn't mean a model
 has started or the work is correct.
 
+## Meta hackathon scope
+
+**Intended entry: Indie Developer · Build for Your World.**
+
+Together predates this event. Its existing project, conversation, agent-help
+and work-record code is retained in `together-candidate/`; the source history
+is preserved in [its provenance record](together-candidate/PROVENANCE.md).
+
+The earlier local Hub is documented in the October 26 records. The October 29
+additions highlighted in this entry are the owner workroom, portable Meta
+API setup and explicit Spark-to-Codex demo controls, alongside a recorded
+real model/participant run. The demo is one small coding task with an
+independent three-case check; it does not present the whole older Together
+application as newly built here.
+
+See [the existing/new work map](META-HACKATHON-WORK.md) and the
+[October 29 work and demo record](hub/records/meta-workroom-and-demo-2026-10-29.md)
+for the dates, source files and verification limits. These dates describe
+retained records; an October 29 repository import is not the original
+creation date of every included file.
+
 ## Open it locally
 
 You need **Node.js 22.18 or newer**. No `npm install` is needed for this Hub.
