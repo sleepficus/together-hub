@@ -1,0 +1,5 @@
+# Hub-owned runtime state: JsonFileStore project files, the owner-session
+# and conversation sqlite stores, and the generated owner token. Local
+# only — never commit state or token material.
+.state/
+node_modules/

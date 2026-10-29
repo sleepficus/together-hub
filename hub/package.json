@@ -1,0 +1,21 @@
+{
+  "description": "Together Hub \u2014 a self-hosted hub where Claude-side and Codex-side agents hand work to each other through one shared, receipted queue, with a Meta model as dispatcher. Built for the Meta Global AI Developer Hackathon (Oct 26 \u2013 Nov 4, 2026). Smoke 105/105; fresh-install verified 2026-10-28. See README.md and FIRST-USE.md.",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "license": "MIT",
+  "name": "together-hub",
+  "private": true,
+  "scripts": {
+    "demo:rehearsal": "node scripts/demo-rehearsal.ts",
+    "probe:caps": "node scripts/probe-caps.ts",
+    "probe:handoff": "node scripts/probe-handoff.ts",
+    "probe:restart": "node scripts/probe-restart.ts",
+    "smoke": "node scripts/smoke.ts",
+    "start": "node src/server.ts",
+    "test:meta": "python3 scripts/test-meta-api.py && node scripts/probe-meta-bundled.ts",
+    "test:meta:demo": "python3 scripts/test-demo-meta.py"
+  },
+  "type": "module",
+  "version": "0.0.0"
+}
